@@ -1,0 +1,18 @@
+class Rectangle 
+{ 
+      int length; 
+      int breadth; 
+      
+      void setData(int l, int b) 
+      { 
+        length =l; 
+        breadth=b; 
+      } 
+      //method to calculate area of rectangle 
+      int area() 
+      { 
+        int rectArea; 
+        rectArea = length * breadth; 
+        return rectArea; 
+      } 
+} 
